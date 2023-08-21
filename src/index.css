@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: rgb(101, 73, 106);
+    --color-bg-variant: rgb(78, 53, 102);
+    --color-primary: rgb(213, 166, 174);
+    --color-primary-variant: rgb(124, 99, 123);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light-variant: rgba(236, 225, 233, 0.6);
+
+    --transition: all 400ms ease;
+}
+
+body {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5rem;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+section {
+    margin-top: .2rem;
+    height: 160vh;
+}
+
+section > h2, section > h5,section > h1 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    color: var(--color-primary-variant);
+    margin-bottom: 1rem;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    padding: 0.75rem 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
+}

@@ -1,0 +1,78 @@
+#shop {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50%;
+}
+
+.aboutUs {
+    height: 40%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs h1 {
+    color: var(--color-bg-variant);
+    padding-bottom: 1rem;
+    margin-right: 16rem;
+}
+
+.aboutUs p {
+    color: var(--color-bg);
+}
+
+.aboutUs-image {
+    height: 60%;
+}
+
+.aboutUs-image > img {
+    height: 83%;
+}
+
+.image2 {
+    height: 90%;
+}
+
+.image2 img {
+    height: 100%;
+}
+
+.aboutUs-content {
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/AboutUs3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+}
+
+.aboutUs-content h3 {
+    color: var(--color-bg);
+    margin-bottom: .5rem;
+}
+
+.aboutUs-content h1 {
+    color: var(--color-bg-variant);
+}
+
+.aboutUs-content p {
+    color: var(--color-bg);
+    margin-top: 2rem;
+}
+
+.about-btn {
+    margin-top: 2.5rem;
+    font-size: none;
+    width: 1rem;
+}

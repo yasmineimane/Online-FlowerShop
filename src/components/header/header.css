@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(178, 125, 133);
+    height: 100vh;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image {
+    width: 50vw;
+    height: 88vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content >h1 {
+    color: var(--color-white);
+    padding: 0 8rem;
+}
+
+.content p {
+    padding: 2.5rem 8rem;
+    font-size: 1.2rem;
+    color: var(--color-white);
+}
+
+.btn__header {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: none;
+    margin-right: 15.5rem;
+}
